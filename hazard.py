@@ -34,7 +34,7 @@ def main():
       print(f"{Fore.CYAN}Here is The Download: https://www.google.com/chrome/downloads/")
 
 
-    elif choice == '2':
+    #elif choice == '2':
       
 
 
