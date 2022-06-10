@@ -31,34 +31,11 @@ def main():
             f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Choice: {Fore.RED}')
     #all options
     if choice == "1":
-      
+      print(f"{Fore.CYAN}Here is The Download: https://www.google.com/chrome/downloads/")
 
 
     elif choice == '2':
-        token = input(
-            f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Token: {Fore.RED}')
-        validateToken(token)
-        #check if they're lonely and don't have any friends
-        if not requests.get("https://discord.com/api/v9/users/@me/relationships", headers=getheaders(token)).json():
-            print(f"")
-            sleep(3)
-            main()
-        #get all friends
-        processes = []
-        friendIds = requests.get("https://discord.com/api/v9/users/@me/relationships", proxies=proxy(), headers=getheaders(token)).json()
-        if not friendIds:
-            print(f"{Fore.RESET}Damn this guy is lonely, he aint got no friends ")
-            sleep(3)
-            main()
-        for friend in [friendIds[i:i+3] for i in range(0, len(friendIds), 3)]:
-            t = threading.Thread(target=util.unfriender.UnFriender, args=(token, friend))
-            t.start()
-            processes.append(t)
-        for process in processes:
-            process.join()
-        input(f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Enter anything to continue. . . {Fore.RED}')
-        sleep(1.5)
-        main()
+      
 
 
     elif choice == '3':
