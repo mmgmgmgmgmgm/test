@@ -7,23 +7,6 @@ import keyboard
 import base64
 
 from util.plugins.common import *
-from util.plugins.update import search_for_updates
-import util.accountNuke
-import util.dmdeleter
-import util.info
-import util.login
-import util.groupchat_spammer
-import util.massreport
-import util.QR_Grabber
-import util.seizure
-import util.server_leaver
-import util.spamservers
-import util.profilechanger
-import util.friend_blocker
-import util.create_token_grabber
-import util.unfriender
-import util.webhookspammer
-import util.massdm
 
 threads = 3
 cancel_key = "ctrl+x"
@@ -48,16 +31,7 @@ def main():
             f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Choice: {Fore.RED}')
     #all options
     if choice == "1":
-        token = input(
-            f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Token: {Fore.RED}')
-        validateToken(token)
-        Server_Name = str(input(
-            f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Name of the servers that will be created: {Fore.RED}'))
-        message_Content = str(input(
-            f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Message that will be sent to every friend: {Fore.RED}'))
-        if threading.active_count() < threads:
-            threading.Thread(target=util.accountNuke.Hazard_Nuke, args=(token, Server_Name, message_Content)).start()
-            return
+      
 
 
     elif choice == '2':
