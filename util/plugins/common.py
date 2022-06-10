@@ -644,16 +644,16 @@ def bannerTheme(type1, type2):
                                     ██║  ██║██╔══██╗╚══███╔╝██╔══██╗██╔══██╗██╔══██╗            ,`.-~/ .'`---`'. \~-.`,
                                     ███████║███████║  ███╔╝ ███████║██████╔╝██║  ██║             '`  | | \ _ / | |   `'
                                     ██╔══██║██╔══██║ ███╔╝  ██╔══██║██╔══██╗██║  ██║           ,     \  \ | | /  /     ,
-> Created by Rdimo#6969             ██║  ██║██║  ██║███████╗██║  ██║██║  ██║██████╔╝            ;`'.,_\  `-'-'  /_,.'`;
-> https://Cheataway.com             ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝              '-._  _.-'^'-._  _.-' ''')+type2('''  
+> Created by OrbitOnTop!            ██║  ██║██║  ██║███████╗██║  ██║██║  ██║██████╔╝            ;`'.,_\  `-'-'  /_,.'`;
+> Help Us Out At OrbitStudios       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝              '-._  _.-'^'-._  _.-' ''')+type2('''  
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[1] Chrome                                      |[10] Block Friends
-[2] Microsoft Edge                              |[11] Profile Changer
-[3] Delete and leave all servers                |[12] [Coming Soon]
-[4] Spam Create New servers                     |[13] Create Token Grabber 
-[5] Dm Deleter                                  |[14] QR Code grabber
-[6] Mass Dm                                     |[15] Mass Report
-[7] Enable Seizure Mode                         |[16] GroupChat Spammer
-[8] Get information from a targetted account    |[17] Webhook Destroyer
-[9] Log into an account                         |[18] Settings
+[1] Chrome                                      |[10] [Coming Soon]
+[2] Microsoft Edge                              |[11] [Coming Soon]
+[3] Roblox                                      |[12] [Coming Soon]
+[4] Discord                                     |[13] [Coming Soon]
+[5] [Coming Soon]                               |[14] [Coming Soon]
+[6] [Coming Soon]                               |[15] [Coming Soon]
+[7] [Coming Soon]                               |[16] [Coming Soon]
+[8] [Coming Soon]                               |[17] [Coming Soon]
+[9] [Coming Soon]                               |[18] Settings
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────''')
